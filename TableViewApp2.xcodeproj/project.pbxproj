@@ -42,8 +42,8 @@
 		BC59BDD32505EAC1005141BD = {
 			isa = PBXGroup;
 			children = (
-				BC59BDDE2505EAC1005141BD /* TableViewApp2 */,
 				BC59BDDD2505EAC1005141BD /* Products */,
+				BC59BDDE2505EAC1005141BD /* TableViewApp2 */,
 			);
 			sourceTree = "<group>";
 		};
