@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		BC59BDE02505EAC1005141BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC59BDDF2505EAC1005141BD /* AppDelegate.swift */; };
 		BC59BDE22505EAC1005141BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC59BDE12505EAC1005141BD /* SceneDelegate.swift */; };
-		BC59BDE42505EAC1005141BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC59BDE32505EAC1005141BD /* ViewController.swift */; };
 		BC59BDE72505EAC1005141BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC59BDE52505EAC1005141BD /* Main.storyboard */; };
 		BC59BDE92505EAC2005141BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC59BDE82505EAC2005141BD /* Assets.xcassets */; };
 		BC59BDEC2505EAC2005141BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC59BDEA2505EAC2005141BD /* LaunchScreen.storyboard */; };
+		BC59BDF42505FA10005141BD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC59BDF32505FA10005141BD /* TableViewController.swift */; };
+		BC59BDF62506164B005141BD /* addListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC59BDF52506164B005141BD /* addListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BC59BDDC2505EAC1005141BD /* TableViewApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC59BDDF2505EAC1005141BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC59BDE12505EAC1005141BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BC59BDE32505EAC1005141BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BC59BDE62505EAC1005141BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC59BDE82505EAC2005141BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC59BDEB2505EAC2005141BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC59BDED2505EAC2005141BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC59BDF32505FA10005141BD /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		BC59BDF52506164B005141BD /* addListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				BC59BDDF2505EAC1005141BD /* AppDelegate.swift */,
 				BC59BDE12505EAC1005141BD /* SceneDelegate.swift */,
-				BC59BDE32505EAC1005141BD /* ViewController.swift */,
+				BC59BDF32505FA10005141BD /* TableViewController.swift */,
+				BC59BDF52506164B005141BD /* addListViewController.swift */,
 				BC59BDE52505EAC1005141BD /* Main.storyboard */,
 				BC59BDE82505EAC2005141BD /* Assets.xcassets */,
 				BC59BDEA2505EAC2005141BD /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC59BDE42505EAC1005141BD /* ViewController.swift in Sources */,
 				BC59BDE02505EAC1005141BD /* AppDelegate.swift in Sources */,
+				BC59BDF42505FA10005141BD /* TableViewController.swift in Sources */,
+				BC59BDF62506164B005141BD /* addListViewController.swift in Sources */,
 				BC59BDE22505EAC1005141BD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
